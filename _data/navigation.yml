@@ -1,6 +1,12 @@
 main:
-  - title: "Curriculum Vitae"
-    url: /assets/pdfs/LukeMcCartin_CV_July_2026.pdf
+  - title: "Research directions"
+    url: 
 
   - title: "Publications"
     url: /publications/
+
+  - title: "Gallery"
+    url:
+
+  - title: "Curriculum Vitae"
+    url: /assets/pdfs/LukeMcCartin_CV_July_2026.pdf
