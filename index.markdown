@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![Diving in Alvin in January 2023]({{"/assets/images/1_McCartin_Alvin_photo.jpg" | relative_url }})

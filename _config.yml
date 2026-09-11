@@ -33,8 +33,9 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
-remote_theme: "mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
