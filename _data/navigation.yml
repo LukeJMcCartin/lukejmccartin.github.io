@@ -1,12 +1,15 @@
 main:
-  - title: "Research directions"
-    url: 
-
+  - title: "Research"
+    url: /research/
+  
   - title: "Publications"
     url: /publications/
 
-  - title: "Gallery"
-    url:
+  - title: "Teaching"
+    url: /teaching/
 
-  - title: "Curriculum Vitae"
-    url: /assets/pdfs/LukeMcCartin_CV_July_2026.pdf
+  - title: "Outreach"
+    url: /outreach/  
+
+  - title: "Gallery"
+    url: /gallery/
