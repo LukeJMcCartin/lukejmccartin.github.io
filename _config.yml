@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Luke McCartin"
-description:	       "Luke McCartin, PhD, is a molecular ecologist who studies our planet's most unknown ecosystem - the deep ocean."
+title:		           "Luke McCartin, PhD"
+description:	       "Luke is a molecular ecologist who studies our planet's most unknown ecosystem - the deep ocean."
 author:              "Luke McCartin"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

@@ -11,6 +11,7 @@ menu:
 - {name: 'Publications',  url: 'publications'}
 - {name: 'Teaching', url: 'teaching'}
 - {name: 'Outreach', url: 'outreach'}
+- {name: 'Field work', url: 'field_work'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
