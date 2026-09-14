@@ -13,14 +13,9 @@ body {
 
 $brand-color: black;
 
-$container-width: 1200px;
+$container-width: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 $header-thickness: 56px;
 
@@ -43,20 +38,20 @@ $rss-color: #ff6600;
   display: grid;
   grid-template-columns: repeat(1, minmax(220px, 1fr));
   gap: 24px;
-  width: min(100%, 900px);
+  width: min(100%, 480px);
   margin: 0 auto;
   justify-items: center;
 }
 
 .grid-item {
   width: 100%;
-  max-width: 900px;
+  max-width: 480px;
 }
 
 .research-link {
   position: relative;
   display: block;
-  max-width: 900px;
+  max-width: 480px;
 }
 
 .research-overlay {
