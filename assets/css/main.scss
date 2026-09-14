@@ -36,22 +36,31 @@ $rss-color: #ff6600;
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(1, minmax(220px, 1fr));
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
   gap: 24px;
-  width: min(100%, 480px);
+  width: min(100%, 600px);
   margin: 0 auto;
   justify-items: center;
 }
 
 .grid-item {
-  width: 100%;
-  max-width: 480px;
+  padding: 0;
+  background: transparent;
 }
 
 .research-link {
   position: relative;
   display: block;
-  max-width: 480px;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.research-link img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .research-overlay {
