@@ -48,6 +48,21 @@ $rss-color: #ff6600;
   background: transparent;
 }
 
+.research-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.research-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .research-link {
   position: relative;
   display: block;
@@ -74,14 +89,32 @@ $rss-color: #ff6600;
   transition: opacity 0.25s ease;
 }
 
-.research-link:hover .research-overlay,
-.research-link:focus .research-overlay {
-  opacity: 1;
-}
-
 .research-text {
   color: white;
   font-weight: 100;
   text-align: center;
   padding: 0 1rem;
+}
+
+
+.research-card:hover .research-overlay,
+.research-card:focus-within .research-overlay {
+  opacity: 1;
+}
+
+.research-link:hover .research-overlay,
+.research-link:focus .research-overlay {
+  opacity: 1;
+}
+
+details {
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
 }

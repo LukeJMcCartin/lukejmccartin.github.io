@@ -30,11 +30,44 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
+  position: relative;
   margin-bottom: 1rem;
   border-radius: 4px;
 }
 .highlight pre {
   margin-bottom: 0;
+  padding-top: 2.5rem;
+}
+.copy-code-button {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 1;
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid #d1d9e0;
+  border-radius: 6px;
+  color: #25292e;
+  background: #f6f8fa;
+  box-shadow: 0 1px 0 rgba(31, 35, 40, .04), inset 0 1px 0 rgba(255, 255, 255, .25);
+  cursor: pointer;
+}
+.copy-code-button svg {
+  display: block;
+  fill: currentColor;
+}
+.copy-code-button:hover,
+.copy-code-button:focus-visible {
+  border-color: #d1d9e0;
+  background: #eff2f5;
+}
+.copy-code-button:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: 2px;
 }
 
 /* Gist via GitHub Pages */
