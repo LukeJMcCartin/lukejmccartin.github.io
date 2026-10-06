@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Processing eDNA metabarcoding data generated using Illumina short read sequencing
-permalink: /tutorials/illumina_dada2
+permalink: /tutorials/illumina_dada2/
 ---
 
 # Background
