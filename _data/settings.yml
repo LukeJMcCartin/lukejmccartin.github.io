@@ -7,7 +7,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Bioinformatics Data Analysis Tutorials', url: 'tutorials'}
+- {name: 'Bioinformatics Tutorials', url: 'tutorials'}
+- {name: 'eDNA Taxa Barplot', url: 'taxabarplot'}
+- {name: 'Coral 28S Reference Database', url: 'referencedatabase'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
